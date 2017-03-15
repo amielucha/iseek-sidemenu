@@ -1,0 +1,26 @@
+/* This stylesheet is used to style the public view of the widget. */
+.iseek-sidemenu-class .navbar-toggler {
+	outline: none!important;
+}
+
+.iseek-sidemenu-class .navbar-toggler.collapsed {
+	transform: rotate(180deg);
+}
+
+.iseek-sidemenu-class .list-group-item {
+	padding: 0;
+}
+
+.iseek-sidemenu-class .list-group-link {
+	padding: .5rem 1rem;
+	display: inline-block;
+	width: 80%;
+}
+
+.iseek-sidemenu-class .collapse-wrapper > .list-group {
+	padding: 0 1rem .5rem;
+}
+
+.iseek-sidemenu-class  .children.collapse-wrapper .navbar-toggler {
+	//display:  none;
+}
